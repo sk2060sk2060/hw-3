@@ -30,7 +30,7 @@ generateBtn.addEventListener("click", function(event){
 });
 
 function getPasswordLengthfromUser() {
-  var passwordLengthText = prompt("Enter preferred password length (must be between 8 and 128 characters). Enter a number between 1 and 128.");
+  var passwordLengthText = prompt("Enter a number between 8 and 128 for password length.");
   if (passwordLengthText === null) {
     return null;
   }
@@ -45,7 +45,7 @@ function getPasswordLengthfromUser() {
     alert("Invalid Password length.");          
   }
 
-  passwordLengthText = prompt("Enter preferred password length (must be between 8 and 128 characters). Enter a number between 1 and 128.");
+  passwordLengthText = prompt("Enter a number between 8 and 128 for password length.");
   if (passwordLengthText === null) {
     return null;
   }
